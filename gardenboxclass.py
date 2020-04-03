@@ -13,7 +13,7 @@ class GardenBox:
         self.width = float(input ("What is the width? "))
 
     def get_perimeter(self):
-        self.perimeter = ((self.width * 2) + (self.length * 2))
+        self.perimeter = ((self.width * float(2)) + (self.length * float(2)))
         
     def get_area(self):
         self.area = (self.width * self.length)
