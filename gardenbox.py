@@ -9,17 +9,13 @@ gb = GardenBox(conn)
 print ("hello welcome to gardenbox!")
 
 # get length
-gb.set_length()
+gb.get_length()
 
 # get width
-gb.set_width()
-
-
-# do math to make perimeter
-gb.get_perimeter()
+gb.get_width()
 
 # do math to make area
-gb.get_area()
+gb.set_area()
 
 # tell the user the list of plants
 # ask user which plants they'd like to add
